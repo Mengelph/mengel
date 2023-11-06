@@ -1,4 +1,6 @@
 import { createApp } from 'vue'
-import App from './App.vue'
+import App from '../../../portfolio/mengel_ph/src/App.vue'
+import router from '../../../portfolio/mengel_ph/src/router'
+import primevue from 'primevue/config'
 
-createApp(App).mount('#app')
+createApp(App).use(router).use(primevue).mount('#app')
